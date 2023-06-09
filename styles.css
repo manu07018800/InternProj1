@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.left-container {
+    width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.item {
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: move;
+}
+
+.right-container {
+    width: 150px;
+    border: 1px dashed #3498db;
+    padding: 10px;
+}
+
+.reset-button {
+    text-align: center;
+    margin-top: 20px;
+}
